@@ -1,0 +1,77 @@
+@import 'fonts.less';
+@import 'variables.less';
+@import 'mixins.less';
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body{
+  font-family: ;
+  color: ;
+  background: url();
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:;
+  text-transform: uppercase;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+
+  p{
+    font-family: 'RobotoLightItalic';
+  }
+}
+.portfolio{
+  text-align: center;
+  h1{
+    font-size: 70px;
+    font-family: 'KaushanScriptRegular';  
+  }
+  ul{
+    li{
+      margin-top: 10px;
+      a{
+        font-size: 45px;
+        text-decoration: none;
+        color: purple;
+        &:hover{
+          color: red;
+        }
+      } 
+    }
+  }
+}
